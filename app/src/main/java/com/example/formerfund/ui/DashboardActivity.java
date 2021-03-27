@@ -39,11 +39,11 @@ public class DashboardActivity extends AppCompatActivity {
         fluidBottomNavigation.setTextColor(ContextCompat.getColor(DashboardActivity.this, R.color.black));
         fluidBottomNavigation.setIconSelectedColor(ContextCompat.getColor(DashboardActivity.this, R.color.orange));
 
-        fluidBottomNavigationItemList.add(new FluidBottomNavigationItem("news",
+        fluidBottomNavigationItemList.add(new FluidBottomNavigationItem("Product",
                 ContextCompat.getDrawable(this, R.drawable.ic_calender)));
-        fluidBottomNavigationItemList.add(new FluidBottomNavigationItem("Home",
+        fluidBottomNavigationItemList.add(new FluidBottomNavigationItem("Status",
                 ContextCompat.getDrawable(this, R.drawable.ic_baseline_home_24)));
-        fluidBottomNavigationItemList.add(new FluidBottomNavigationItem("Feed",
+        fluidBottomNavigationItemList.add(new FluidBottomNavigationItem("Profile",
                 ContextCompat.getDrawable(this, R.drawable.circle)));
 //        fluidBottomNavigationItemList.add(new FluidBottomNavigationItem("news",
 //                ContextCompat.getDrawable(this, R.drawable.circle)));

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Farmer.RejectActivity">
+
+    <ImageView
+        android:id="@+id/imageViewSuccess"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_baseline_mood_bad"
+        android:layout_marginTop="55dp"/>
+
+    <TextView
+        android:id="@+id/textViewSuccess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reject"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_below="@+id/imageViewSuccess"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/textViewVerify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Document is rejected"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:layout_below="@+id/textViewSuccess"
+        android:textSize="18dp"
+        android:layout_marginTop="15dp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:textColor="@color/white"
+        android:layout_centerInParent="true"
+        android:id="@+id/login"/>
+
+</RelativeLayout>

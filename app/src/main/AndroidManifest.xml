@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FormerFund">
-        <activity android:name=".ui.FormerRegisterActivity"></activity>
+        <activity android:name=".Farmer.RejectActivity"></activity>
+        <activity android:name=".Farmer.SuccessActivity" />
+        <activity android:name=".Farmer.VerfiyActivity" />
+        <activity android:name=".Farmer.UploadLandDetailsActivity" />
+        <activity android:name=".Farmer.UploadProductActivity" />
+        <activity android:name=".ui.FormerRegisterActivity" />
         <activity
             android:name=".ui.DashboardActivity"
             android:screenOrientation="portrait"
@@ -35,7 +40,7 @@
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"></activity>
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
     </application>
 
 </manifest>
