@@ -43,9 +43,9 @@ public class InvestorDashboardActivity extends AppCompatActivity {
         fluidBottomNavigation.setTextColor(ContextCompat.getColor(InvestorDashboardActivity.this, R.color.black));
         fluidBottomNavigation.setIconSelectedColor(ContextCompat.getColor(InvestorDashboardActivity.this, R.color.orange));
 
-        fluidBottomNavigationItemList.add(new FluidBottomNavigationItem("Invest",
+        fluidBottomNavigationItemList.add(new FluidBottomNavigationItem("Feed",
                 ContextCompat.getDrawable(this, R.drawable.ic_baseline_add_shopping_cart)));
-        fluidBottomNavigationItemList.add(new FluidBottomNavigationItem("Process",
+        fluidBottomNavigationItemList.add(new FluidBottomNavigationItem("Home",
                 ContextCompat.getDrawable(this, R.drawable.ic_baseline_catching)));
         fluidBottomNavigationItemList.add(new FluidBottomNavigationItem("Profile",
                 ContextCompat.getDrawable(this, R.drawable.ic_baseline_person)));
