@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
+    android:background="@drawable/background_img"
     tools:context=".ui.DashboardActivity">
 
     <RelativeLayout
@@ -12,6 +12,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal">
+
+
     </RelativeLayout>
 
     <com.tenclouds.fluidbottomnavigation.FluidBottomNavigation

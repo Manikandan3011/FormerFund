@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FormerFund">
-        <activity android:name=".Investor.HomeInvestorActivity"></activity>
+        <activity android:name=".Investor.FeedViewActivity"></activity>
+        <activity android:name=".FeedInvestorActivity" />
+        <activity android:name=".Investor.HomeInvestorActivity" />
         <activity android:name=".Investor.InvestorProfileActivity" />
         <activity android:name=".Farmer.FarmerProfileActivity" />
         <activity android:name=".ui.InvestorDashboardActivity" />
