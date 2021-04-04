@@ -55,6 +55,6 @@
         android:background="#FFD600"
         android:textColor="@color/black"
         android:layout_centerInParent="true"
-        android:id="@+id/login"/>
+        android:id="@+id/buttonOkay"/>
 
 </RelativeLayout>
