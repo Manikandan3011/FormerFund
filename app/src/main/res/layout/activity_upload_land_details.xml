@@ -87,6 +87,20 @@
                             android:layout_marginTop="20dp"
                             android:src="@drawable/ic_baseline_attachment"/>
 
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:id="@+id/editTextUpiId"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_below="@+id/editTextDocument"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="10dp"
+                            android:layout_marginBottom="15dp"
+                            android:background="@drawable/buttondesign"
+                            android:hint="UPI ID"
+                            android:padding="10dp"
+                            android:textColorHint="@android:color/darker_gray" />
+
                     </RelativeLayout>
 
 

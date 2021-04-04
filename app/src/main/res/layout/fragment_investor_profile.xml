@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.ProfileFragment">
+    tools:context=".Investor.InvestorProfileActivity">
 
     <RelativeLayout
         android:id="@+id/profile_pic_linear_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
         android:layout_marginTop="35dp"
+        android:layout_alignParentLeft="true"
         android:orientation="vertical">
 
         <de.hdodenhof.circleimageview.CircleImageView
@@ -135,8 +136,8 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/relativeLayout_mobile"
             android:layout_marginLeft="35dp"
-            android:layout_marginTop="25dp"
-            android:layout_marginBottom="25dp">
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp">
 
             <ImageView
                 android:id="@+id/imageView_location"
@@ -176,15 +177,14 @@
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Logout"
         android:layout_marginStart="25dp"
         android:layout_marginEnd="25dp"
-        android:layout_marginBottom="45dp"
-        android:background="@drawable/bg_round_button"
         android:padding="10dp"
-        android:text="Logout"
-        android:layout_marginTop="25dp"
-        android:layout_below="@+id/profile_pic_linear_layout"
+        android:textStyle="bold"
         android:textColor="@color/white"
-        android:textStyle="bold" />
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/bg_round_button"
+        android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>

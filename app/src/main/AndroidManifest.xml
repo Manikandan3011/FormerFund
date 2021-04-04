@@ -9,24 +9,32 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FormerFund">
-        <activity android:name=".Investor.FeedViewActivity"></activity>
+        <activity android:name=".admin.AdminFeedViewActivity"></activity>
+        <activity android:name=".admin.AdminRegisterDetailsActivity" />
+        <activity android:name=".Investor.FeedViewActivity" />
         <activity android:name=".FeedInvestorActivity" />
         <activity android:name=".Investor.HomeInvestorActivity" />
         <activity android:name=".Investor.InvestorProfileActivity" />
         <activity android:name=".Farmer.FarmerProfileActivity" />
         <activity android:name=".ui.InvestorDashboardActivity" />
-        <activity android:name=".Farmer.RejectActivity" />
-        <activity android:name=".Farmer.SuccessActivity" />
-        <activity android:name=".Farmer.VerfiyActivity" />
-        <activity android:name=".Farmer.UploadLandDetailsActivity" />
+        <activity
+            android:name=".Farmer.RejectActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity
+            android:name=".Farmer.SuccessActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity
+            android:name=".Farmer.VerfiyActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
+        <activity
+            android:name=".Farmer.UploadLandDetailsActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
         <activity android:name=".Farmer.UploadProductActivity" />
         <activity android:name=".ui.FormerRegisterActivity" />
         <activity
             android:name=".ui.DashboardActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
-
-        </activity>
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen" />
         <activity
             android:name=".ui.RegisterActivity"
             android:screenOrientation="portrait"

@@ -13,6 +13,9 @@ import com.example.formerfund.Farmer.FarmerProfileActivity;
 import com.example.formerfund.Farmer.UploadProductActivity;
 import com.example.formerfund.Investor.HomeInvestorActivity;
 import com.example.formerfund.R;
+import com.example.formerfund.fragments.ProductFragment;
+import com.example.formerfund.fragments.ProfileFragment;
+import com.example.formerfund.fragments.StatusFragment;
 import com.tenclouds.fluidbottomnavigation.FluidBottomNavigation;
 import com.tenclouds.fluidbottomnavigation.FluidBottomNavigationItem;
 import com.tenclouds.fluidbottomnavigation.listener.OnTabSelectedListener;
@@ -62,31 +65,31 @@ public class DashboardActivity extends AppCompatActivity {
                 switch (i) {
 
                     case 0:
-                       /* fragment = new ProductFragment();
+                        fragment = new ProductFragment();
                         fm = getSupportFragmentManager();
                         fragmentTransaction = fm.beginTransaction();
                         fragmentTransaction.replace(R.id.container, fragment);
-                        fragmentTransaction.commit();*/
-                        intent = new Intent(getApplicationContext(), UploadProductActivity.class);
-                        startActivity(intent);
+                        fragmentTransaction.commit();
+                       /* intent = new Intent(getApplicationContext(), UploadProductActivity.class);
+                        startActivity(intent);*/
                         break;
                     case 1:
-                       /* fragment = new StatusFragment();
+                        fragment = new StatusFragment();
                         fm = getSupportFragmentManager();
                         fragmentTransaction = fm.beginTransaction();
                         fragmentTransaction.replace(R.id.container, fragment);
-                        fragmentTransaction.commit();*/
-                        intent = new Intent(getApplicationContext(), HomeInvestorActivity.class);
-                        startActivity(intent);
+                        fragmentTransaction.commit();
+                       /* intent = new Intent(getApplicationContext(), HomeInvestorActivity.class);
+                        startActivity(intent);*/
                         break;
                     case 2:
-                       /* fragment = new ProfileFragment();
+                        fragment = new ProfileFragment();
                         fm = getSupportFragmentManager();
                         fragmentTransaction = fm.beginTransaction();
                         fragmentTransaction.replace(R.id.container, fragment);
-                        fragmentTransaction.commit();*/
-                        intent = new Intent(getApplicationContext(), FarmerProfileActivity.class);
-                        startActivity(intent);
+                        fragmentTransaction.commit();
+                       /* intent = new Intent(getApplicationContext(), FarmerProfileActivity.class);
+                        startActivity(intent);*/
                         break;
                 }
             }

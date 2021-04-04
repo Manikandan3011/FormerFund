@@ -14,6 +14,9 @@ import com.example.formerfund.Investor.FeedViewActivity;
 import com.example.formerfund.Investor.HomeInvestorActivity;
 import com.example.formerfund.Investor.InvestorProfileActivity;
 import com.example.formerfund.R;
+import com.example.formerfund.fragments.FeedViewFragment;
+import com.example.formerfund.fragments.HomeInvestorFragment;
+import com.example.formerfund.fragments.InvestorProfileFragment;
 import com.example.formerfund.fragments.ProductFragment;
 import com.example.formerfund.fragments.ProfileFragment;
 import com.example.formerfund.fragments.StatusFragment;
@@ -65,32 +68,25 @@ public class InvestorDashboardActivity extends AppCompatActivity {
             public void onTabSelected(int i) {
                 switch (i) {
                     case 0:
-                       /* fragment = new ProductFragment();
+                        fragment = new FeedViewFragment();
                         fm = getSupportFragmentManager();
                         fragmentTransaction = fm.beginTransaction();
                         fragmentTransaction.replace(R.id.container, fragment);
-                        fragmentTransaction.commit();*/
-
-                        intent = new Intent(getApplicationContext(), FeedViewActivity.class);
-                        startActivity(intent);
+                        fragmentTransaction.commit();
                         break;
                     case 1:
-                       /* fragment = new StatusFragment();
+                        fragment = new HomeInvestorFragment();
                         fm = getSupportFragmentManager();
                         fragmentTransaction = fm.beginTransaction();
                         fragmentTransaction.replace(R.id.container, fragment);
-                        fragmentTransaction.commit();*/
-                        intent = new Intent(getApplicationContext(), HomeInvestorActivity.class);
-                        startActivity(intent);
+                        fragmentTransaction.commit();
                         break;
                     case 2:
-                       /* fragment = new ProfileFragment();
+                        fragment = new InvestorProfileFragment();
                         fm = getSupportFragmentManager();
                         fragmentTransaction = fm.beginTransaction();
                         fragmentTransaction.replace(R.id.container, fragment);
-                        fragmentTransaction.commit();*/
-                        intent = new Intent(getApplicationContext(), InvestorProfileActivity.class);
-                        startActivity(intent);
+                        fragmentTransaction.commit();
                         break;
                 }
             }
