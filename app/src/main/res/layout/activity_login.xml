@@ -51,8 +51,8 @@
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:layout_marginTop="50dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
                 android:maxLines="1"
                 android:inputType="textEmailAddress"
                 android:fontFamily="@font/poppins_regular"
@@ -70,32 +70,20 @@
             android:layout_marginBottom="25dp"
             android:layout_below="@id/lin">
 
-            <com.google.android.material.textfield.TextInputLayout
-                style="@style/LoginTextInputLayoutStylePassword"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColorHint="#B9B8B8"
-                android:layout_marginTop="10dp"
-                app:hintEnabled="false"
-                app:passwordToggleTint="@color/grey"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
-                app:passwordToggleEnabled="true">
-
                 <EditText
                     android:id="@+id/editTextPassword"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:maxLines="1"
-                    android:padding="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:padding="10dp"
                     android:fontFamily="@font/poppins_regular"
                     android:inputType="textPassword"
                     android:background="@drawable/grey_bg"
                     android:hint="password"
                     android:importantForAutofill="no" />
-
-            </com.google.android.material.textfield.TextInputLayout>
-
 
         </LinearLayout>
 

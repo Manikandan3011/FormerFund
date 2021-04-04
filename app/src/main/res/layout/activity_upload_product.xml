@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
-
-    <data>
-
-        <variable
-            name="uploadProduct"
-            type="com.example.formerfund.Farmer.UploadProductActivity" />
-    </data>
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/bg"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         tools:context=".Farmer.UploadProductActivity">
 
         <RelativeLayout
@@ -126,5 +118,3 @@
         </RelativeLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-</layout>

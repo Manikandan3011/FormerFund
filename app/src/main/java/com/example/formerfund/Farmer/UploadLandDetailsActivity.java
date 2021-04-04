@@ -6,20 +6,22 @@ import androidx.databinding.DataBindingUtil;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 import com.example.formerfund.R;
-import com.example.formerfund.databinding.ActivityUploadLandDetailsBinding;
 
 public class UploadLandDetailsActivity extends AppCompatActivity {
 
-    ActivityUploadLandDetailsBinding uploadLandDetailsBinding;
+    Button buttonSubmit;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        uploadLandDetailsBinding = DataBindingUtil.setContentView(this,R.layout.activity_upload_land_details);
+        setContentView(R.layout.activity_upload_land_details);
 
-        uploadLandDetailsBinding.buttonSubmit.setOnClickListener(new View.OnClickListener() {
+        buttonSubmit = findViewById(R.id.buttonSubmit);
+
+        buttonSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(),VerfiyActivity.class));

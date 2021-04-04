@@ -9,6 +9,7 @@ import android.os.Handler;
 import com.example.formerfund.R;
 
 public class SplashScreenActivity extends AppCompatActivity {
+
     private final int SPLASH_DISPLAY_LENGTH = 1000;
 
     @Override
